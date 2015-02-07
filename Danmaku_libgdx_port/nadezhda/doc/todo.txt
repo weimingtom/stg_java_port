@@ -1,0 +1,32 @@
+绘画矩形
+paint1.setColor(Color.BLUE); //bg color
+canvas.drawRect(0, 0, FIELD_WIDTH, FIELD_HEIGHT, paint1);
+
+绘画透明矩形
+paint1.setColor(Color.WHITE);
+paint1.setAlpha((int)(alpha * 255));
+canvas.drawRect(0, 0, FIELD_WIDTH, FIELD_HEIGHT, paint1);  
+
+键盘和鼠标信息记录
+
+纹理加载器
+
+旋转平移绘画：
+paint.setAntiAlias(true);
+matrix.reset();
+matrix.postTranslate(-HALFWIDTH, -HALFHEIGHT);
+matrix.postRotate(a);
+matrix.postTranslate(m_PosX, m_PosY);
+canvas.drawBitmap(TextureManager.enemy2, matrix, paint);
+
+平移绘画
+canvas.drawBitmap(TextureManager.homingBullet, m_PosX - HALFWIDTH, m_PosY - HALFHEIGHT, null);
+canvas.drawBitmap(m_Texture, m_PosX, m_PosY, null);
+canvas.drawBitmap(TextureManager.homingBullet, m_PosX - HALFWIDTH, m_PosY - HALFHEIGHT, null);
+
+绘画文字
+paint.setColor(color);
+canvas.drawText(text, x, y, paint);
+
+舞台居中
+
