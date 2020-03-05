@@ -7,6 +7,10 @@ NOTE: When I use AWT, setResizable(false) should be before pack(), I didn't fix 
 ## References  
 * kikya (not available)  
 http://www.kikya.com/danmaku/  
+original code is here:  
+https://github.com/weimingtom/stg_java_port/blob/master/kikyajava_v3/js/kikya_js_v1.7z  
+or see here:  
+https://github.com/silconsystem/danmaku/tree/master/js  
 
 * remram44 / Danmaku  
 https://github.com/remram44/Danmaku  
